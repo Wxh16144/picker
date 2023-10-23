@@ -151,7 +151,6 @@ export function getDefaultFormat<DateType>(
   use12Hours: boolean | undefined,
   locale: Locale,
 ) {
-  // let mergedFormat = format;
   if (format) return format;
 
   if (picker === 'time') {
